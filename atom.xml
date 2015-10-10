@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://syzhang.me/"/>
-  <updated>2015-10-10T10:32:47.121Z</updated>
+  <updated>2015-10-10T10:41:59.201Z</updated>
   <id>http://syzhang.me/</id>
   
   <author>
@@ -15,23 +15,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[使用Hexo+Github Pages搭建静态网页博客]]></title>
+    <title></title>
     <link href="http://syzhang.me/2015/10/10/%E4%BD%BF%E7%94%A8Hexo-Github%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E5%8D%9A%E5%AE%A2/"/>
     <id>http://syzhang.me/2015/10/10/使用Hexo-Github搭建静态网页博客/</id>
-    <published>2015-10-10T10:21:43.000Z</published>
-    <updated>2015-10-10T10:32:47.121Z</updated>
-    <content type="html"><![CDATA[<p>自己动手，丰衣足食，这是自己在配置个人网站时候，基于查询到的教程和自己的实践经验而写，仅供参考。<br><a id="more"></a></p>
+    <published>2015-10-10T10:41:59.247Z</published>
+    <updated>2015-10-10T10:41:59.201Z</updated>
+    <content type="html"><![CDATA[<p>title: 使用Hexo+Github Pages搭建静态网页博客<br>date: 2015-10-10 18:21:43<br>tags: </p>
+<ul>
+<li>Hexo</li>
+<li>Github</li>
+<li>Web<br>catrgories: Web<br>photos: </li>
+<li><a href="http://7xnev4.com1.z0.glb.clouddn.com/hexologo.png" target="_blank" rel="external">http://7xnev4.com1.z0.glb.clouddn.com/hexologo.png</a><br>自己动手，丰衣足食，这是自己在配置个人网站时候，基于查询到的教程和自己的实践经验而写，仅供参考。<a id="more"></a>
+</li>
+</ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>自己动手，丰衣足食，这是自己在配置个人网站时候，基于查询到的教程和自己的实践经验而写，仅供参考。<br>]]>
+    <![CDATA[<p>title: 使用Hexo+Github Pages搭建静态网页博客<br>date: 2015-10-10 18:21:43<br>tags: </p>
+<ul>
+<li>Hexo</li>
+<li>Github</li>
+<li>Web<br>catrgories: Web<br>photos: </li>
+<li><a href="http://7xnev4.com1.z0.glb.clouddn.com/hexologo.png">http://7xnev4.com1.z0.glb.clouddn.com/hexologo.png</a><br>自己动手，丰衣足食，这是自己在配置个人网站时候，基于查询到的教程和自己的实践经验而写，仅供参考。]]>
     
     </summary>
-    
-      <category term="Github" scheme="http://syzhang.me/tags/Github/"/>
-    
-      <category term="Hexo" scheme="http://syzhang.me/tags/Hexo/"/>
-    
-      <category term="Web" scheme="http://syzhang.me/tags/Web/"/>
     
   </entry>
   
