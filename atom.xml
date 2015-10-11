@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://syzhang.me/"/>
-  <updated>2015-10-11T06:36:01.226Z</updated>
+  <updated>2015-10-11T06:49:11.418Z</updated>
   <id>http://syzhang.me/</id>
   
   <author>
@@ -19,8 +19,11 @@
     <link href="http://syzhang.me/2015/10/10/%E4%BD%BF%E7%94%A8Hexo+Github%20Pages%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E5%8D%9A%E5%AE%A2/"/>
     <id>http://syzhang.me/2015/10/10/使用Hexo+Github Pages搭建静态网页博客/</id>
     <published>2015-10-10T10:21:43.000Z</published>
-    <updated>2015-10-11T06:36:01.226Z</updated>
+    <updated>2015-10-11T06:49:11.418Z</updated>
     <content type="html"><![CDATA[<p>自己动手，丰衣足食，这是自己在配置个人网站时候，基于查询到的教程和自己的实践经验而写，仅供参考。<br><a id="more"></a></p>
+<p>#前言<br>[LOFTER]www.lofter.com&gt;，[简书]<a href="http://www.jianshu.com/" target="_blank" rel="external">http://www.jianshu.com/</a>，[about.me]<a href="https://about.me/" target="_blank" rel="external">https://about.me/</a>等等都提供了非常好的轻博客服务，无论是主题的视觉效果还编辑内容的便捷性都很棒。但很多人肯定相比一定和我一样，都希望能自己动手搭建一个自己的专属网页，用自己喜欢的域名，实现自己最喜欢的UI效果，这也算是一个“工程狮”自豪吧。</p>
+<p>本文忽略部分基础性的知识,较为完整的教程参见:<br>[如何搭建一个独立博客——简明Github Pages与Hexo教程]<a href="http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/" target="_blank" rel="external">http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/</a></p>
+<p>[使用Hexo搭建博客]<a href="http://blog.lmintlcx.com/post/blog-with-hexo.html" target="_blank" rel="external">http://blog.lmintlcx.com/post/blog-with-hexo.html</a></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>自己动手，丰衣足食，这是自己在配置个人网站时候，基于查询到的教程和自己的实践经验而写，仅供参考。<br>]]>
