@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://syzhang.me/"/>
-  <updated>2015-10-11T06:29:50.474Z</updated>
+  <updated>2015-10-11T06:36:01.226Z</updated>
   <id>http://syzhang.me/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://syzhang.me/2015/10/10/%E4%BD%BF%E7%94%A8Hexo+Github%20Pages%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E5%8D%9A%E5%AE%A2/"/>
     <id>http://syzhang.me/2015/10/10/使用Hexo+Github Pages搭建静态网页博客/</id>
     <published>2015-10-10T10:21:43.000Z</published>
-    <updated>2015-10-11T06:29:50.474Z</updated>
-    <content type="html"><![CDATA[<p>自己动手，丰衣足食，这是自己在配置个人网站时候，基于查询到的教程和自己的实践经验而写，仅供参考。<br><a id="more"></a><br>大幅度</p>
+    <updated>2015-10-11T06:36:01.226Z</updated>
+    <content type="html"><![CDATA[<p>自己动手，丰衣足食，这是自己在配置个人网站时候，基于查询到的教程和自己的实践经验而写，仅供参考。<br><a id="more"></a></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>自己动手，丰衣足食，这是自己在配置个人网站时候，基于查询到的教程和自己的实践经验而写，仅供参考。<br>]]>
@@ -32,6 +32,8 @@
       <category term="Hexo" scheme="http://syzhang.me/tags/Hexo/"/>
     
       <category term="Web" scheme="http://syzhang.me/tags/Web/"/>
+    
+      <category term="Web" scheme="http://syzhang.me/categories/Web/"/>
     
   </entry>
   
