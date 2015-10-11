@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://syzhang.me/2015/10/11/Markdown/</loc>
+    <lastmod>2015-10-11T06:58:21.031Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://syzhang.me/2015/10/10/%E4%BD%BF%E7%94%A8Hexo+Github%20Pages%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2015-10-11T06:51:38.882Z</lastmod>
   </url>
