@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://syzhang.me/"/>
-  <updated>2015-10-11T06:58:21.031Z</updated>
+  <updated>2015-10-11T07:00:55.603Z</updated>
   <id>http://syzhang.me/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Markdown]]></title>
-    <link href="http://syzhang.me/2015/10/11/Markdown/"/>
-    <id>http://syzhang.me/2015/10/11/Markdown/</id>
+    <title><![CDATA[Markdown简明使用方法]]></title>
+    <link href="http://syzhang.me/2015/10/11/Markdown%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>http://syzhang.me/2015/10/11/Markdown简明使用方法/</id>
     <published>2015-10-11T06:53:51.000Z</published>
-    <updated>2015-10-11T06:58:21.031Z</updated>
+    <updated>2015-10-11T07:00:55.603Z</updated>
     <content type="html"><![CDATA[<h2 id="Markdown简介">Markdown简介</h2><blockquote>
 <p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="external">维基百科</a></p>
 </blockquote>
