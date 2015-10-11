@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://syzhang.me/"/>
-  <updated>2015-10-11T06:19:36.938Z</updated>
+  <updated>2015-10-11T06:23:04.003Z</updated>
   <id>http://syzhang.me/</id>
   
   <author>
@@ -16,10 +16,10 @@
   
   <entry>
     <title></title>
-    <link href="http://syzhang.me/2015/10/11/%E4%BD%BF%E7%94%A8Hexo-Github%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://syzhang.me/2015/10/11/使用Hexo-Github搭建静态网页博客/</id>
-    <published>2015-10-11T06:19:36.996Z</published>
-    <updated>2015-10-11T06:19:36.938Z</updated>
+    <link href="http://syzhang.me/2015/10/11/%E4%BD%BF%E7%94%A8Hexo+Github%20Pages%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://syzhang.me/2015/10/11/使用Hexo+Github Pages搭建静态网页博客/</id>
+    <published>2015-10-11T06:23:24.090Z</published>
+    <updated>2015-10-11T06:23:04.003Z</updated>
     <content type="html"><![CDATA[<p>title: 使用Hexo+Github Pages搭建静态网页博客<br>date: 2015-10-10 18:21:43<br>catrgories: Web<br>tags: </p>
 <ul>
 <li>Hexo</li>
