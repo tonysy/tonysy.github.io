@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://syzhang.me/"/>
-  <updated>2015-10-11T10:25:55.582Z</updated>
+  <updated>2015-10-12T08:31:37.711Z</updated>
   <id>http://syzhang.me/</id>
   
   <author>
@@ -13,6 +13,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[珍惜在一起的每一天]]></title>
+    <link href="http://syzhang.me/2015/10/12/%E7%8F%8D%E6%83%9C%E5%9C%A8%E4%B8%80%E8%B5%B7%E7%9A%84%E6%AF%8F%E4%B8%80%E5%A4%A9/"/>
+    <id>http://syzhang.me/2015/10/12/珍惜在一起的每一天/</id>
+    <published>2015-10-12T08:24:16.000Z</published>
+    <updated>2015-10-12T08:31:37.711Z</updated>
+    <content type="html"><![CDATA[<p>写下这篇随笔，记下砂锅和傻瓜的第一天。</p>
+<p>未来太遥远，我们都不知道会在哪里，和谁，会怎样。<br>幸运的是，此时此刻，我有砂锅陪在身边。<br>今天和明天，以及以后每一个在一起的今天和明天，执手，共赴青春。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>写下这篇随笔，记下砂锅和傻瓜的第一天。</p>
+<p>未来太遥远，我们都不知道会在哪里，和谁，会怎样。<br>幸运的是，此时此刻，我有砂锅陪在身边。<br>今天和明天，以及以后每一个在一起的今天和明天，执手，共赴青春。</p>
+]]>
+    </summary>
+    
+      <category term="文学" scheme="http://syzhang.me/tags/%E6%96%87%E5%AD%A6/"/>
+    
+      <category term="随笔" scheme="http://syzhang.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="随笔" scheme="http://syzhang.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Markdown使用方法]]></title>
