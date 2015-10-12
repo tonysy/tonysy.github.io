@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://syzhang.me/"/>
-  <updated>2015-10-12T11:27:04.731Z</updated>
+  <updated>2015-10-12T11:30:47.748Z</updated>
   <id>http://syzhang.me/</id>
   
   <author>
@@ -15,22 +15,22 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[OOMMFF安装指南]]></title>
-    <link href="http://syzhang.me/2015/10/12/OOMMFF%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/"/>
-    <id>http://syzhang.me/2015/10/12/OOMMFF安装指南/</id>
+    <title><![CDATA[OOMMF简介与安装指南]]></title>
+    <link href="http://syzhang.me/2015/10/12/OOMMF%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/"/>
+    <id>http://syzhang.me/2015/10/12/OOMMF简介与安装指南/</id>
     <published>2015-10-12T10:05:34.000Z</published>
-    <updated>2015-10-12T11:27:04.731Z</updated>
+    <updated>2015-10-12T11:30:47.748Z</updated>
     <content type="html"><![CDATA[<h2 id="OOMMF介绍">OOMMF介绍</h2><p>oommf是当前使用最广泛（没有之一）的微磁模拟软件，属于开源软件，自由下载，主要由美国NIST的M.Donahue等人开发，不定期释出新版本。目前的最新版本为oommf1.2a5，分为64位和32位两种，适用平台囊括Windows/Linux/Unix/Mac等几乎所有操作系统。官网有Windows预编译版和源文件包提供，前者可以在Windows上直接运行，后者需要自行编译。使用oommf前需要先安装tcl/tk软件，如果要从oommf源文件自行编译，还需要安装合适的编译器，例如MS-VC++(免费的express版就可以)等。oommf属于面向对象软件，功能很强大，而且very flexible，就速度而言，64位版要比32位版快几倍。要学会oommf必须好好看一下安装包自带的说明书(userguide)，并且安装包里还有很多示例性的mif文件。看完说明书后，最好把mif文件逐个看一遍，这样肯定能够学会编写oommf的输入文件(即mif文件)。oommf的输入文件语言是tcl语言。</p>
 <h2 id="其他微磁学软件介绍">其他微磁学软件介绍</h2><p>　    LLG Micromagnetics Simulator是一款收费软件，由原美国亚利桑那州立大学教授M.Scheinfein开发，用户比oommf要少很多，一方面是由于其售价高达合人民币约六万，另一方面是由于其速度太慢，比oommf要慢数倍，另外，llg的功能也没有oommf强大，有些微磁学问题用llg是没办法做的。作为售价不菲的收费软件，llg有其自身的优点-提供了某些数据处理功能，这是自由软件所不具备的。对于某些微磁问题，这些数据后处理功能非常重要。llg只能在Windows平台上运行，2013年推出了64位版本。<br>　　mumax是最近两三年才推出的一款微磁软件，属于开源软件，自由下载，主要由比利时Ghent大学的A.Vansteenkiste博士开发，不定期释出新版本，目前更新很频繁。mumax是一款GPU软件，所以它的特点是速度快。经笔者验证，mumax的运算速度比oommf-64位版本还要快几倍(因此比llg要快几十甚至上百倍)。mumax专门针对nVIDIA GPU开发，可以在Linux/Windows/Mac平台上运行。官网有Windows可执行文件包和源文件包提供。mumax的输入文件为mx3格式，官网提供有示例性mx3文件和API，简单易学，大约几天就能上手。mumax的输入文件语言是比较新的go语言。<br>　　<br>　　另外，免费微磁软件还有magpar/nmag/micromagnum(GPU软件)等，收费软件还有micromagus/GPMagnet(GPU软件)。<br>　　<br>　　oommf/llg/mumax/micromagnum采用的是有限差分法(finite-difference method)，magpar和nmag采用的是有限元法(finite-element method)。</p>
 <h2 id="安装方式">安装方式</h2><h3 id="1-_Download_the_graphics_UI_package_:">1. Download the graphics UI package :</h3><p>Tcl/Tk 8.4 (NOT 8.5), from:<a href="http://www.activestate.com/activetcl/downloads" target="_blank" rel="external">http://www.activestate.com/activetcl/downloads</a>.<br>And install by clicking the exe . You may have to add the Tcl directory to your global path variable. On windows XP, this is done by right clicking</p>
 <blockquote>
 <p>My Computer -&gt; Properties -&gt; Advanced -&gt; Environment Variables</p>
 </blockquote>
-<p>and ?nd the ”Path” variable in the list. Add a line similar to</p>
+<p>and find the ”Path” variable in the list. Add a line similar to</p>
 <blockquote>
 <p>D:\Tcl\bin</p>
 </blockquote>
-<h3 id="2-_Download_the_main_code_:">2. Download the main code :</h3><p>OOMMF v 1.2a3, compiled for Windows and Tcl/Tk 8.4, from<br><a href="http://math.nist.gov/oommf/dist/oommf12a3_20021030_84.zip" target="_blank" rel="external">http://math.nist.gov/oommf/dist/oommf12a3_20021030_84.zip</a><br>Unzip, and start the command line (Start -Run -”cmd”). Change directory to you oommf dir, and type:<br>‘tclsh84 oommf.tcl pimake upgrade’</p>
+<h3 id="2-_Download_the_main_code_:">2. Download the main code :</h3><p>OOMMF v 1.2a3, compiled for Windows and Tcl/Tk 8.4, from<br><a href="http://math.nist.gov/oommf/dist/oommf12a3_20021030_84.zip" target="_blank" rel="external">http://math.nist.gov/oommf/dist/oommf12a3_20021030_84.zip</a><br>Unzip, and start the command line (<code>Start -Run -”cmd”</code>). Change directory to you oommf dir, and type:<br><code>tclsh84 oommf.tcl pimake upgrade</code></p>
 <p>Now, to fix some known bugs ,go to</p>
 <p><http: math.nist.gov="" oommf="" software-patchsets="" oommf12a3="" patchinfo.html=""></http:></p>
 <p>and complete the steps described in problem 2, 8, 13, 16, 17 and 19 All these problems are solved by downloading and replacing ?les -no recompiling is required.</p>
