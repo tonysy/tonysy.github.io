@@ -40,18 +40,18 @@
 
 
 <meta name="description" content="参考自:http://www.cnblogs.com/qianlifeng/archive/2011/03/05/1971663.html
-语言简介Tcl是一种很通用的脚本语言，它几乎在所有的平台上都可以解释运行，功能强大。是tool command language的缩写，发音为 &quot;tickle”。 实际上包含了两个部分：一个语言和一个库。 首先，Tcl是一种简单的脚本语言，主要使用于发布命令给">
+语言简介Tcl是一种很通用的脚本语言，它几乎在所有的平台上都可以解释运行，功能强大。是tool command language的缩写，发音为 “tickle”。 实际上包含了两个部分：一个语言和一个库。 首先，Tcl是一种简单的脚本语言，主要使用于发布命令给">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Tcl语言教程">
 <meta property="og:url" content="http://syzhang.me/2015/10/14/Tcl语言教程/index.html">
 <meta property="og:site_name" content="Writing And Thinking">
 <meta property="og:description" content="参考自:http://www.cnblogs.com/qianlifeng/archive/2011/03/05/1971663.html
-语言简介Tcl是一种很通用的脚本语言，它几乎在所有的平台上都可以解释运行，功能强大。是tool command language的缩写，发音为 &quot;tickle”。 实际上包含了两个部分：一个语言和一个库。 首先，Tcl是一种简单的脚本语言，主要使用于发布命令给">
-<meta property="og:updated_time" content="2015-10-14T13:02:01.834Z">
+语言简介Tcl是一种很通用的脚本语言，它几乎在所有的平台上都可以解释运行，功能强大。是tool command language的缩写，发音为 “tickle”。 实际上包含了两个部分：一个语言和一个库。 首先，Tcl是一种简单的脚本语言，主要使用于发布命令给">
+<meta property="og:updated_time" content="2015-10-14T13:03:40.634Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Tcl语言教程">
 <meta name="twitter:description" content="参考自:http://www.cnblogs.com/qianlifeng/archive/2011/03/05/1971663.html
-语言简介Tcl是一种很通用的脚本语言，它几乎在所有的平台上都可以解释运行，功能强大。是tool command language的缩写，发音为 &quot;tickle”。 实际上包含了两个部分：一个语言和一个库。 首先，Tcl是一种简单的脚本语言，主要使用于发布命令给">
+语言简介Tcl是一种很通用的脚本语言，它几乎在所有的平台上都可以解释运行，功能强大。是tool command language的缩写，发音为 “tickle”。 实际上包含了两个部分：一个语言和一个库。 首先，Tcl是一种简单的脚本语言，主要使用于发布命令给">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -237,8 +237,8 @@
 
       
         <span itemprop="articleBody"><p>参考自:<a href="http://www.cnblogs.com/qianlifeng/archive/2011/03/05/1971663.html" target="_blank" rel="external">http://www.cnblogs.com/qianlifeng/archive/2011/03/05/1971663.html</a></p>
-<h2 id="语言简介">语言简介</h2><pre><code>Tcl是一种很通用的脚本语言，它几乎在所有的平台上都可以解释运行，功能强大。是tool <span class="keyword">command</span> <span class="keyword">language</span>的缩写，发音为 "tickle”。 实际上包含了两个部分：一个语言和一个库。 首先，Tcl是一种简单的脚本语言，主要使用于发布命令给一 些互交程序如文本编辑器、调试器和<span class="keyword">shell</span>。它有一个简单的语法 和很强可扩充性，Tcl可以创建新的过程以增强其内建命令的能力。其次，Tcl是一个库包，可以被嵌入应用程序，Tcl的库包含了一个分析器、用于执行内建命令的例程和可以使你扩充（定义新的 过程）的库函数。应用程序可以产生Tcl命令并执行，命令可以由用户产生，也可以从用户接口的一个输入中读取（按钮或菜单等）。 但Tcl库收到命令后将它分解并执行内建的命令，经常会产生递归的调用。
-</code></pre><h2 id="基本语法">基本语法</h2><h3 id="1-命令结构：">1.命令结构：</h3><p>commandName arguments。每条命令之间通过换行或者；隔开。例如：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> foo <span class="number">0</span></span><br><span class="line"><span class="built_in">set</span> bar <span class="number">1</span>;</span><br></pre></td></tr></table></figure></p>
+<h2 id="语言简介">语言简介</h2><p>Tcl是一种很通用的脚本语言，它几乎在所有的平台上都可以解释运行，功能强大。是tool command language的缩写，发音为 “tickle”。 实际上包含了两个部分：一个语言和一个库。 首先，Tcl是一种简单的脚本语言，主要使用于发布命令给一 些互交程序如文本编辑器、调试器和shell。它有一个简单的语法 和很强可扩充性，Tcl可以创建新的过程以增强其内建命令的能力。其次，Tcl是一个库包，可以被嵌入应用程序，Tcl的库包含了一个分析器、用于执行内建命令的例程和可以使你扩充（定义新的 过程）的库函数。应用程序可以产生Tcl命令并执行，命令可以由用户产生，也可以从用户接口的一个输入中读取（按钮或菜单等）。 但Tcl库收到命令后将它分解并执行内建的命令，经常会产生递归的调用。</p>
+<h2 id="基本语法">基本语法</h2><h3 id="1-命令结构：">1.命令结构：</h3><p>commandName arguments。每条命令之间通过换行或者；隔开。例如：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> foo <span class="number">0</span></span><br><span class="line"><span class="built_in">set</span> bar <span class="number">1</span>;</span><br></pre></td></tr></table></figure></p>
 <h3 id="2-注释：">2.注释：</h3><p>使用#注释，不过要注意的是下面的注释是错误的：</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> foo <span class="number">0</span> <span class="preprocessor">#这个是注释</span></span><br></pre></td></tr></table></figure>
 <p>因为tcl解析器总是认为一条命令应该以换行或者分号结束，其他的在同一行中都认为是参数。所以正确的应该是:<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> foo <span class="number">0</span>; <span class="preprocessor">#这个是注释</span></span><br></pre></td></tr></table></figure></p>
