@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://syzhang.me/"/>
-  <updated>2015-10-14T12:32:44.506Z</updated>
+  <updated>2015-10-14T13:02:01.834Z</updated>
   <id>http://syzhang.me/</id>
   
   <author>
@@ -19,43 +19,45 @@
     <link href="http://syzhang.me/2015/10/14/Tcl%E8%AF%AD%E8%A8%80%E6%95%99%E7%A8%8B/"/>
     <id>http://syzhang.me/2015/10/14/Tcl语言教程/</id>
     <published>2015-10-14T12:25:46.000Z</published>
-    <updated>2015-10-14T12:32:44.506Z</updated>
-    <content type="html"><![CDATA[<h2 id="1-_Tcl语言简介">1. Tcl语言简介</h2><p>参考自：<a href="http://www.yiibai.com/tcl/" target="_blank" rel="external">http://www.yiibai.com/tcl/</a><br>TCL缩短工具命令语言的形式。由加州大学伯克利分校的约翰Ousterhout设计它。它是一种脚本语言，由其自身的解释器，它被嵌入到开发应用程序的组合。</p>
-<p>TCL最初在Unix平台中。后来移植到Windows，DOS，OS/2和Mac OSX。 TCL非常类似于其他UNIX的shell语言，类似Bourne Shell (Sh), the C Shell (csh), the Korn Shell (sh), 和 Perl。</p>
-<p>它的目的是提供程序与其他程序，也是作为一个可嵌入的翻译相互作用的能力。虽然原来的目的是为了使程序能够进行交互，可以找到由Tcl/Tk 编写的完全成熟的应用。</p>
-<h3 id="1-1_Tcl_特性">1.1 Tcl 特性</h3><p>TCL的特点如下：</p>
-<ul>
-<li><p>减少开发时间。</p>
-</li>
-<li><p>功能强大和简单的用户界面工具包整合传统知识。</p>
-</li>
-<li><p>一次编写，随处运行。它可以运行在Windows，Mac OS X和几乎所有的Unix平台。</p>
-</li>
-<li><p>有经验的程序员很容易上手，因为语言就是这么简单，可以在几个小时或几天学习Tcl就可以搞定。</p>
-</li>
-<li><p>可以轻松地用Tcl扩展现有的应用程序。另外，也可以包括Tcl的用C，C++或Java来扩展Tcl，或反之亦然。</p>
-</li>
-<li><p>有一组功能强大的网络功能。</p>
-</li>
-<li><p>最后，它的开源，免费的，可以用于其他无任何限制商业应用。</p>
-</li>
-</ul>
-<h3 id="1-2_应用程序">1.2 应用程序</h3><p>Tcl是一种通用的语言，可以随便就能找到Tcl应用的例子。它包括</p>
-<ul>
-<li><p>这通常是由数据库支持的可扩展的网站。</p>
-</li>
-<li><p>高性能的网络服务器建立的TclHttpd。</p>
-</li>
-<li><p>TCL基于CGI的网站。</p>
-</li>
-<li><p>桌面GUI应用程序。</p>
-</li>
-<li><p>嵌入式应用。</p>
-</li>
-</ul>
-]]></content>
+    <updated>2015-10-14T13:02:01.834Z</updated>
+    <content type="html"><![CDATA[<p>参考自:<a href="http://www.cnblogs.com/qianlifeng/archive/2011/03/05/1971663.html" target="_blank" rel="external">http://www.cnblogs.com/qianlifeng/archive/2011/03/05/1971663.html</a></p>
+<h2 id="语言简介">语言简介</h2><pre><code>Tcl是一种很通用的脚本语言，它几乎在所有的平台上都可以解释运行，功能强大。是tool <span class="keyword">command</span> <span class="keyword">language</span>的缩写，发音为 "tickle”。 实际上包含了两个部分：一个语言和一个库。 首先，Tcl是一种简单的脚本语言，主要使用于发布命令给一 些互交程序如文本编辑器、调试器和<span class="keyword">shell</span>。它有一个简单的语法 和很强可扩充性，Tcl可以创建新的过程以增强其内建命令的能力。其次，Tcl是一个库包，可以被嵌入应用程序，Tcl的库包含了一个分析器、用于执行内建命令的例程和可以使你扩充（定义新的 过程）的库函数。应用程序可以产生Tcl命令并执行，命令可以由用户产生，也可以从用户接口的一个输入中读取（按钮或菜单等）。 但Tcl库收到命令后将它分解并执行内建的命令，经常会产生递归的调用。
+</code></pre><h2 id="基本语法">基本语法</h2><h3 id="1-命令结构：">1.命令结构：</h3><p>commandName arguments。每条命令之间通过换行或者；隔开。例如：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> foo <span class="number">0</span></span><br><span class="line"><span class="built_in">set</span> bar <span class="number">1</span>;</span><br></pre></td></tr></table></figure></p>
+<h3 id="2-注释：">2.注释：</h3><p>使用#注释，不过要注意的是下面的注释是错误的：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> foo <span class="number">0</span> <span class="preprocessor">#这个是注释</span></span><br></pre></td></tr></table></figure>
+<p>因为tcl解析器总是认为一条命令应该以换行或者分号结束，其他的在同一行中都认为是参数。所以正确的应该是:<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> foo <span class="number">0</span>; <span class="preprocessor">#这个是注释</span></span><br></pre></td></tr></table></figure></p>
+<p>其实对于习惯于.net编程的人来说每行末尾加个;应该是理所当然的事情，所以这个对我们应该没有什么不习惯的。</p>
+<h3 id="3-数据类型：">3.数据类型：</h3><p>tcl不支持.net中的形如<code>int</code> , <code>double</code> ,<code>char</code>等等类型，唯一支持的就是<code>string</code>类型。也就是说一个变量可以在不同的时刻理解为不同的类型。</p>
+<h3 id="4-变量">4.变量</h3><p>tcl可以定义两种类型的变量：变量和数组。<br>变量：在tcl变量不需要声明就可以直接赋值。给变量赋值的例子：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> ba <span class="number">1</span>;</span><br><span class="line"><span class="built_in">set</span> ma “qian li feng”;<span class="preprocessor">#加引号的作用是为了告诉编译器包括空格</span></span><br></pre></td></tr></table></figure>
+<p> 取得变量的值可以在对应的变量名前面加<code>$</code>来取得，例如：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">puts</span> <span class="variable">$ba</span>;  <span class="comment">#表示打印出ba的值</span></span><br></pre></td></tr></table></figure></p>
+<p>数组：数组也不需要声明，直接赋值，例如：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="built_in">set</span> <span class="title">qian</span><span class="params">(<span class="number">0</span>)</span> 1</span>;</span><br><span class="line"><span class="function"><span class="built_in">set</span> <span class="title">qian</span><span class="params">(<span class="number">1</span>)</span> 2</span>;</span><br></pre></td></tr></table></figure></p>
+<p>一个比较有意思的地方是数组下标可以不按照顺序来写，也不一定是数字，可以是字符串。例如：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="built_in">set</span> <span class="title">qian</span><span class="params">(<span class="number">123</span>)</span> f</span>;</span><br><span class="line"><span class="function"><span class="built_in">set</span> <span class="title">qian</span><span class="params">(<span class="number">6789</span>)</span> fs</span>;</span><br><span class="line"><span class="function"><span class="built_in">set</span> <span class="title">qian</span><span class="params">(good)</span> yes</span>;</span><br></pre></td></tr></table></figure></p>
+<p>我们可以使用<code>puts $qian(123);</code>的形式来获得数组的内容。当然tcl数组也支持多维数组，声明形式为：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="built_in">set</span> <span class="title">qian</span><span class="params">(<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>)</span> fs</span>; <span class="preprocessor">#随便多少维</span></span><br></pre></td></tr></table></figure></p>
+<p>如果我们要查看某个已经赋值的数组的信息，可以使用<code>parray</code>命令：如：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">parray</span> qian;   <span class="comment">#将打印出qian数组的所有信息</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="5-字符串操作">5.字符串操作</h3><p><code>string</code> 命令基本语法如下（这里的<code>string1</code>，<code>string2</code>可以是字符串也可以是变量，<code>option</code>是下列选项之一）<br><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">string </span>option <span class="keyword">string1 </span><span class="keyword">string2;</span></span><br></pre></td></tr></table></figure></p>
+<p><code>option</code>的操作选项：<br>　　<code>compare</code> 按照字典的排序方式进行比较。根据<code>string1 &lt;,=,&gt;string2</code>分别返回<code>-1,0,1</code><br>　　<code>first</code> 返回<code>string2</code>中第一次出现<code>string1</code>的位置，如果没有出现<code>string1</code>则返回<code>-1</code><br>　　<code>last</code>和<code>first</code>相反<br>　　<code>trim</code> 从<code>string1</code>中删除开头和结尾的出现在<code>string2</code>中的字符<br>　　<code>tolower</code> 返回<code>string1</code>中的所有字符被转换为小写字符后的新字符串<br>　　<code>toupper</code> 返回<code>string1</code>中的所有字符串转换为大写后的字符串<br>　　<code>length</code> 返回<code>string1</code>的长度<br>例子：<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">string</span> <span class="property">length</span> $qian;  <span class="comment">#将返回变量qian的长度</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="6-数字操作">6.数字操作</h3><p>因为tcl中只有一个<code>string</code>类型的变量，所以当要操作数字进行运算的时候，tcl提供了<code>incr</code>和<code>expr</code>两个操作数。</p>
+<p><code>incr</code>的基本用法为：<br><figure class="highlight gams"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">incr <span class="keyword">variable</span> <span class="keyword">integer</span></span><br></pre></td></tr></table></figure></p>
+<p>（variable必须为数字）<br>例如我要将一个数字加3<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> a <span class="number">3</span>;</span><br><span class="line">incr a <span class="number">3</span>; <span class="preprocessor">#将a加<span class="number">3</span>，如果要减<span class="number">3</span>，则为 incr a –<span class="number">3</span>;</span></span><br></pre></td></tr></table></figure></p>
+<p>默认的<code>incr a</code>等同于.net里面的<code>a++</code>的意思，即本身自增1。</p>
+<p><code>expr</code>的基本语法为：<br><figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">expr <span class="function"><span class="keyword">function</span></span> <span class="keyword">number</span></span><br></pre></td></tr></table></figure></p>
+<p><code>expr</code>是为了提供更加复杂的操作而设计的一个语法，比如运算乘除法等等。在执行算术操作的时候必须将<code>expr</code>命令放在算术操作之前。例如：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> a <span class="number">20</span>; <span class="built_in">set</span> b <span class="number">4</span>;</span><br><span class="line"><span class="built_in">set</span> c [expr $a/$b]; <span class="preprocessor">#此时的c的值为<span class="number">5</span></span></span><br></pre></td></tr></table></figure></p>
+<p>　　除此之外，<code>expr</code>还能够识别一些函数及其返回值如下：<br>　　<code>abs(x)</code>x的绝对值<br>　　<code>round(x)</code> x舍入后得到的整数值<br>　　<code>sin(x)</code> x的正弦<br>　　…………………………………..<br>　　举个例子：<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> <span class="operator">a</span> [expr <span class="built_in">sin</span>(<span class="number">0.3</span>)]; <span class="comment">#计算0.3的正弦</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="7-转义">7.转义</h3><p>在tcl中可以使用{}将需要转义的字符串括起来。例如：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> a <span class="number">5</span>;</span><br><span class="line"><span class="built_in">set</span> b &#123;<span class="variable">$a</span>&#125;;  <span class="comment">#此时b的值为”$a“，而不是5。</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="8-流控制">8.流控制</h3><p><code>if</code> 控制流<br>　　基本语法：<br><figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> &#123; 表达式 &#125; &#123;</span><br><span class="line">     #运算;</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    #其他运算;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>需要注意的是<code>if….else,if……elseif…</code>中的<code>else</code>，<code>elseif</code>必须要和<code>if</code>的后面一个{在同一行。</p>
+<p><code>switch</code>控制流：<br>基本语法：<br><figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">switch</span> <span class="variable">$x</span> &#123;</span><br><span class="line">  </span><br><span class="line">　　数值<span class="number">1</span> &#123; 操作<span class="number">1</span> ;&#125;            </span><br><span class="line"> </span><br><span class="line">　　数值<span class="number">2</span> &#123; 操作<span class="number">2</span> ;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="9-循环">9.循环</h3><p>tcl提供三种循环命令，分别为：<code>for</code>，<code>foreach</code>，<code>while</code>。此外tcl还提供两个循环控制命令。注意：这个三个命令中的程序块的开始花括号必须要和三个命令同一行。</p>
+<figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>基本语法：</span><br><span class="line">　　<span class="keyword">while</span> &#123;条件&#125; &#123; 程序块 &#125;</span><br></pre></td></tr></table></figure>
+<p><code>foreach</code>将在一组变元中进行循环，并且每次都将执行他的循环体。基本结构：<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">foreach <span class="built_in">variable</span> &#123;<span class="keyword">items</span>&#125; &#123;block&#125;</span><br></pre></td></tr></table></figure></p>
+<p>　　这里的<code>variable</code>是变量的名字，便于<code>block</code>中使用。举例：<br><figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">foreach <span class="literal">element</span> &#123;<span class="number">0</span> m n b v&#125; &#123;</span><br><span class="line">       switch <span class="variable">$element</span> &#123;</span><br><span class="line">             # 判断element的值</span><br><span class="line">     &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p><code>for</code>是最常用的循环。其基本结构为：</p>
+<figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> &#123;initialization&#125; &#123;condition&#125; &#123;increment&#125; &#123;body&#125;</span><br></pre></td></tr></table></figure>
+<p>例如：　</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> &#123;<span class="built_in">set</span> i <span class="number">0</span>&#125; &#123;$i &lt; <span class="number">10</span>&#125; &#123;incr i&#125; &#123;<span class="built_in">puts</span> $i;&#125; <span class="preprocessor">#将打印出<span class="number">0</span>到<span class="number">9</span></span></span><br></pre></td></tr></table></figure>]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="1-_Tcl语言简介">1. Tcl语言简介</h2><p>参考自：<a href="http://www.yiibai.com/tcl/" target="_blank" rel="external">http://www.yiibai.com/tcl/</a>]]>
+    <![CDATA[<p>参考自:<a href="http://www.cnblogs.com/qianlifeng/archive/2011/03/05/1971663.html" target="_blank" rel="external">http://www.cnblogs.com/qia]]>
     </summary>
     
       <category term="Spintronics" scheme="http://syzhang.me/tags/Spintronics/"/>
