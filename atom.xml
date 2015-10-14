@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://syzhang.me/"/>
-  <updated>2015-10-12T11:33:32.794Z</updated>
+  <updated>2015-10-14T12:32:44.506Z</updated>
   <id>http://syzhang.me/</id>
   
   <author>
@@ -13,6 +13,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Tcl语言教程]]></title>
+    <link href="http://syzhang.me/2015/10/14/Tcl%E8%AF%AD%E8%A8%80%E6%95%99%E7%A8%8B/"/>
+    <id>http://syzhang.me/2015/10/14/Tcl语言教程/</id>
+    <published>2015-10-14T12:25:46.000Z</published>
+    <updated>2015-10-14T12:32:44.506Z</updated>
+    <content type="html"><![CDATA[<h2 id="1-_Tcl语言简介">1. Tcl语言简介</h2><p>参考自：<a href="http://www.yiibai.com/tcl/" target="_blank" rel="external">http://www.yiibai.com/tcl/</a><br>TCL缩短工具命令语言的形式。由加州大学伯克利分校的约翰Ousterhout设计它。它是一种脚本语言，由其自身的解释器，它被嵌入到开发应用程序的组合。</p>
+<p>TCL最初在Unix平台中。后来移植到Windows，DOS，OS/2和Mac OSX。 TCL非常类似于其他UNIX的shell语言，类似Bourne Shell (Sh), the C Shell (csh), the Korn Shell (sh), 和 Perl。</p>
+<p>它的目的是提供程序与其他程序，也是作为一个可嵌入的翻译相互作用的能力。虽然原来的目的是为了使程序能够进行交互，可以找到由Tcl/Tk 编写的完全成熟的应用。</p>
+<h3 id="1-1_Tcl_特性">1.1 Tcl 特性</h3><p>TCL的特点如下：</p>
+<ul>
+<li><p>减少开发时间。</p>
+</li>
+<li><p>功能强大和简单的用户界面工具包整合传统知识。</p>
+</li>
+<li><p>一次编写，随处运行。它可以运行在Windows，Mac OS X和几乎所有的Unix平台。</p>
+</li>
+<li><p>有经验的程序员很容易上手，因为语言就是这么简单，可以在几个小时或几天学习Tcl就可以搞定。</p>
+</li>
+<li><p>可以轻松地用Tcl扩展现有的应用程序。另外，也可以包括Tcl的用C，C++或Java来扩展Tcl，或反之亦然。</p>
+</li>
+<li><p>有一组功能强大的网络功能。</p>
+</li>
+<li><p>最后，它的开源，免费的，可以用于其他无任何限制商业应用。</p>
+</li>
+</ul>
+<h3 id="1-2_应用程序">1.2 应用程序</h3><p>Tcl是一种通用的语言，可以随便就能找到Tcl应用的例子。它包括</p>
+<ul>
+<li><p>这通常是由数据库支持的可扩展的网站。</p>
+</li>
+<li><p>高性能的网络服务器建立的TclHttpd。</p>
+</li>
+<li><p>TCL基于CGI的网站。</p>
+</li>
+<li><p>桌面GUI应用程序。</p>
+</li>
+<li><p>嵌入式应用。</p>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="1-_Tcl语言简介">1. Tcl语言简介</h2><p>参考自：<a href="http://www.yiibai.com/tcl/" target="_blank" rel="external">http://www.yiibai.com/tcl/</a>]]>
+    </summary>
+    
+      <category term="Spintronics" scheme="http://syzhang.me/tags/Spintronics/"/>
+    
+      <category term="Tcl" scheme="http://syzhang.me/tags/Tcl/"/>
+    
+      <category term="Spintronics" scheme="http://syzhang.me/categories/Spintronics/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[OOMMF简介与安装指南]]></title>

@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://syzhang.me/2015/10/14/Tcl%E8%AF%AD%E8%A8%80%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2015-10-14T12:32:44.506Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/about/index.html</loc>
+    <lastmod>2015-10-14T12:00:34.836Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://syzhang.me/2015/10/10/%E4%BD%BF%E7%94%A8Hexo+Github%20Pages%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2015-10-12T11:38:21.194Z</lastmod>
   </url>
@@ -19,11 +29,6 @@
   <url>
     <loc>http://syzhang.me/2015/10/11/Markdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2015-10-11T10:25:55.582Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://syzhang.me/about/index.html</loc>
-    <lastmod>2015-10-11T10:10:01.268Z</lastmod>
   </url>
   
   <url>
