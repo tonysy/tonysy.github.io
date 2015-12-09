@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://syzhang.me/"/>
-  <updated>2015-12-09T12:35:36.340Z</updated>
+  <updated>2015-12-09T12:49:36.766Z</updated>
   <id>http://syzhang.me/</id>
   
   <author>
@@ -13,6 +13,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[未能加载项目。缺少根元素。Microsoft.Cpp.Win32.user.props]]></title>
+    <link href="http://syzhang.me/2015/12/09/%E6%9C%AA%E8%83%BD%E5%8A%A0%E8%BD%BD%E9%A1%B9%E7%9B%AE%E3%80%82%E7%BC%BA%E5%B0%91%E6%A0%B9%E5%85%83%E7%B4%A0%E3%80%82Microsoft.Cpp.Win32.user.props/"/>
+    <id>http://syzhang.me/2015/12/09/未能加载项目。缺少根元素。Microsoft.Cpp.Win32.user.props/</id>
+    <published>2015-12-09T12:40:10.000Z</published>
+    <updated>2015-12-09T12:49:36.766Z</updated>
+    <content type="html"><![CDATA[<p>一不小心可能修改了VS2010的配置文件，导致无法创建新的工程<br>提示错误如下:</p>
+<blockquote>
+<p>未能加载项目文件。缺少根元素。<br>C:\Users\tony\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.Win32.user.props</p>
+</blockquote>
+<p>如果你不幸出现如此状况，可按下列办法解决</p>
+<ul>
+<li>打开上述文件目录</li>
+<li>删除上述文件</li>
+<li>打开一个文本编辑器，比如Sublime Text</li>
+<li><p>将下列代码复制粘贴</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="pi">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">Project</span> <span class="attribute">DefaultTargets</span>=<span class="value">"Build"</span> <span class="attribute">ToolsVersion</span>=<span class="value">"4.0"</span> <span class="attribute">xmlns</span>=<span class="value">"http://schemas.microsoft.com/developer/msbuild/2003"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">ImportGroup</span> <span class="attribute">Label</span>=<span class="value">"PropertySheets"</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">PropertyGroup</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">ExecutablePath</span>&gt;</span>$(VCInstallDir)bin;$(WindowsSdkDir)bin\NETFX 4.0 Tools;$(WindowsSdkDir)bin;$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(FrameworkSDKDir)\bin;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);<span class="tag">&lt;/<span class="title">ExecutablePath</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">IncludePath</span>&gt;</span>$(IncludePath)<span class="tag">&lt;/<span class="title">IncludePath</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">ReferencePath</span>&gt;</span>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib<span class="tag">&lt;/<span class="title">ReferencePath</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">LibraryPath</span>&gt;</span>$(LibraryPath)<span class="tag">&lt;/<span class="title">LibraryPath</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">SourcePath</span>&gt;</span>$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src;<span class="tag">&lt;/<span class="title">SourcePath</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">ExcludePath</span>&gt;</span>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(MSBuildToolsPath32);$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;<span class="tag">&lt;/<span class="title">ExcludePath</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="title">PropertyGroup</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">Project</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将此文件保存为 <code>Microsoft.Cpp.Win32.user.props</code> 复制到上述文件夹</p>
+</li>
+<li>再次尝试创建新的工程，即恢复正常</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>一不小心可能修改了VS2010的配置文件，导致无法创建新的工程<br>提示错误如下:</p>
+<blockquote>
+<p>未能加载项目文件。缺少根元素。<br>C:\Users\tony\AppData\Local\Microsoft\MSBuild\v4.0\Micr]]>
+    </summary>
+    
+      <category term="Bug" scheme="http://syzhang.me/tags/Bug/"/>
+    
+      <category term="C++" scheme="http://syzhang.me/tags/C/"/>
+    
+      <category term="环境配置" scheme="http://syzhang.me/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+      <category term="C++" scheme="http://syzhang.me/categories/C/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Coursera-PKU 计算机导论与C语言基础 第八周综合练习(2)]]></title>
@@ -472,6 +511,26 @@
   </entry>
   
   <entry>
+    <title><![CDATA[First Page]]></title>
+    <link href="http://syzhang.me/2015/10/09/First-Page/"/>
+    <id>http://syzhang.me/2015/10/09/First-Page/</id>
+    <published>2015-10-09T12:55:15.000Z</published>
+    <updated>2015-10-09T13:04:13.074Z</updated>
+    <content type="html"><![CDATA[<p>历经九九八十一难终于把这个Personal Blog给搭好了，个中滋味也只有经历过才有体会。</p>
+<p>为了省钱，没有弄动态网页，用hexo的主题和github pages先部署了一个能看的网页。真正做起来的时候，才会发现，很多东西真的没有那么复杂。</p>
+<p>十月的秋风肆虐，北京的霾和蓝天白云轮番登场，来北京的第三个秋天，一路前行，且行且珍惜。</p>
+<hr>
+<p>S.Y.Zhang</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>历经九九八十一难终于把这个Personal Blog给搭好了，个中滋味也只有经历过才有体会。</p>
+<p>为了省钱，没有弄动态网页，用hexo的主题和github pages先部署了一个能看的网页。真正做起来的时候，才会发现，很多东西真的没有那么复杂。</p>
+<p>十月]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[世上所有的坚持，都是因为热爱]]></title>
     <link href="http://syzhang.me/2015/10/09/%E4%B8%96%E4%B8%8A%E6%89%80%E6%9C%89%E7%9A%84%E5%9D%9A%E6%8C%81%EF%BC%8C%E9%83%BD%E6%98%AF%E5%9B%A0%E4%B8%BA%E7%83%AD%E7%88%B1/"/>
     <id>http://syzhang.me/2015/10/09/世上所有的坚持，都是因为热爱/</id>
@@ -504,26 +563,6 @@
     </summary>
     
       <category term="文学" scheme="http://syzhang.me/tags/%E6%96%87%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[First Page]]></title>
-    <link href="http://syzhang.me/2015/10/09/First-Page/"/>
-    <id>http://syzhang.me/2015/10/09/First-Page/</id>
-    <published>2015-10-09T12:55:15.000Z</published>
-    <updated>2015-10-09T13:04:13.074Z</updated>
-    <content type="html"><![CDATA[<p>历经九九八十一难终于把这个Personal Blog给搭好了，个中滋味也只有经历过才有体会。</p>
-<p>为了省钱，没有弄动态网页，用hexo的主题和github pages先部署了一个能看的网页。真正做起来的时候，才会发现，很多东西真的没有那么复杂。</p>
-<p>十月的秋风肆虐，北京的霾和蓝天白云轮番登场，来北京的第三个秋天，一路前行，且行且珍惜。</p>
-<hr>
-<p>S.Y.Zhang</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>历经九九八十一难终于把这个Personal Blog给搭好了，个中滋味也只有经历过才有体会。</p>
-<p>为了省钱，没有弄动态网页，用hexo的主题和github pages先部署了一个能看的网页。真正做起来的时候，才会发现，很多东西真的没有那么复杂。</p>
-<p>十月]]>
-    </summary>
     
   </entry>
   
