@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://syzhang.me/"/>
-  <updated>2015-12-09T12:34:15.934Z</updated>
+  <updated>2015-12-09T12:35:36.340Z</updated>
   <id>http://syzhang.me/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[第八周综合练习]]]></title>
+    <title><![CDATA[Coursera-PKU 计算机导论与C语言基础 第八周综合练习(2)]]></title>
     <link href="http://syzhang.me/2015/12/09/Coursera-PKU%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA%E4%B8%8EC%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%20%E7%AC%AC%E5%85%AB%E5%91%A8%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0(2)/"/>
     <id>http://syzhang.me/2015/12/09/Coursera-PKU 计算机导论与C语言基础 第八周综合练习(2)/</id>
     <published>2015-12-09T12:22:12.000Z</published>
-    <updated>2015-12-09T12:34:15.934Z</updated>
+    <updated>2015-12-09T12:35:36.340Z</updated>
     <content type="html"><![CDATA[<h2 id="编程题＃1：数字求和">编程题＃1：数字求和</h2><h3 id="来源:">来源:</h3><p>POJ (Coursera声明：在POJ上完成的习题将不会计入Coursera的最后成绩。)</p>
 <h3 id="注意：_总时间限制:_1000ms_内存限制:_65536kB">注意： 总时间限制: 1000ms 内存限制: 65536kB</h3><h3 id="描述">描述</h3><p>给定一个正整数a，以及另外的5个正整数，问题是：这5个整数中，小于a的整数的和是多少？</p>
 <h3 id="输入">输入</h3><p>输入一行，只包括6个小于100的正整数，其中第一个正整数就是a。</p>
@@ -101,7 +101,7 @@
     <link href="http://syzhang.me/2015/12/09/Coursera-PKU%20C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%BF%9B%E9%98%B6%20%E7%AC%AC%E4%B9%9D%E5%91%A8%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/"/>
     <id>http://syzhang.me/2015/12/09/Coursera-PKU C程序设计进阶 第九周期末考试/</id>
     <published>2015-12-09T11:55:26.000Z</published>
-    <updated>2015-12-09T12:23:02.429Z</updated>
+    <updated>2015-12-09T12:35:44.352Z</updated>
     <content type="html"><![CDATA[<h2 id="编程题＃1：含k个3的数">编程题＃1：含k个3的数</h2><h3 id="来源:">来源:</h3><p>POJ (Coursera声明：在POJ上完成的习题将不会计入Coursera的最后成绩。)</p>
 <h3 id="注意：_总时间限制:_1000ms_内存限制:_65536kB">注意： 总时间限制: 1000ms 内存限制: 65536kB</h3><h3 id="描述">描述</h3><p>输入二个正整数m 和 k，其中1 &lt; m &lt; 100000，1 &lt; k &lt;5 ，判断m 能否被19整除，且恰好含有k个3，如果满足条件，则输出YES，否则，输出NO。<br>例如，输入：</p>
 <p>43833 3</p>
