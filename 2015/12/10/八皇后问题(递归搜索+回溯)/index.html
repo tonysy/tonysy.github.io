@@ -28,7 +28,7 @@
 
 
 
-  <meta name="keywords" content="Spintronics,Tools," />
+  <meta name="keywords" content="Algorithms,C++,八皇后,回溯,递归," />
 
 
 
@@ -39,16 +39,61 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="OOMMF介绍oommf是当前使用最广泛（没有之一）的微磁模拟软件，属于开源软件，自由下载，主要由美国NIST的M.Donahue等人开发，不定期释出新版本。目前的最新版本为oommf1.2a5，分为64位和32位两种，适用平台囊括Windows/Linux/Unix/Mac等几乎所有操作系统。官网有Windows预编译版和源文件包提供，前者可以在Windows上直接运行，后者需要自行编译。使用o">
+<meta name="description" content="##八皇后问题(递归搜索+溯)我们考虑使用递归搜索来解决这个问题
+对于八皇后问题，不考虑使用美剧算法，枚举的话，状态太多，可能性太多
+###搜索问题的典型算法（递归搜索）
+
+开始
+判断是否达到最简情况
+枚举可能的动作
+尝试这个动作
+递归计算（搜索）更简单的情况
+撤销这个动作（与第二步的动作是同一个动作）
+
+
+返回返回值
+
+问题描述8X8放8个皇后，互相不能吃掉对方。
+解法分析从第一行开始尝试递归的">
 <meta property="og:type" content="article">
-<meta property="og:title" content="OOMMF简介与安装指南">
-<meta property="og:url" content="http://syzhang.me/2015/10/12/OOMMF简介与安装指南/index.html">
+<meta property="og:title" content="八皇后问题(递归搜索+回溯)">
+<meta property="og:url" content="http://syzhang.me/2015/12/10/八皇后问题(递归搜索+回溯)/index.html">
 <meta property="og:site_name" content="Writing And Thinking">
-<meta property="og:description" content="OOMMF介绍oommf是当前使用最广泛（没有之一）的微磁模拟软件，属于开源软件，自由下载，主要由美国NIST的M.Donahue等人开发，不定期释出新版本。目前的最新版本为oommf1.2a5，分为64位和32位两种，适用平台囊括Windows/Linux/Unix/Mac等几乎所有操作系统。官网有Windows预编译版和源文件包提供，前者可以在Windows上直接运行，后者需要自行编译。使用o">
-<meta property="og:updated_time" content="2015-10-12T11:33:32.794Z">
+<meta property="og:description" content="##八皇后问题(递归搜索+溯)我们考虑使用递归搜索来解决这个问题
+对于八皇后问题，不考虑使用美剧算法，枚举的话，状态太多，可能性太多
+###搜索问题的典型算法（递归搜索）
+
+开始
+判断是否达到最简情况
+枚举可能的动作
+尝试这个动作
+递归计算（搜索）更简单的情况
+撤销这个动作（与第二步的动作是同一个动作）
+
+
+返回返回值
+
+问题描述8X8放8个皇后，互相不能吃掉对方。
+解法分析从第一行开始尝试递归的">
+<meta property="og:updated_time" content="2015-12-10T09:37:28.206Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="OOMMF简介与安装指南">
-<meta name="twitter:description" content="OOMMF介绍oommf是当前使用最广泛（没有之一）的微磁模拟软件，属于开源软件，自由下载，主要由美国NIST的M.Donahue等人开发，不定期释出新版本。目前的最新版本为oommf1.2a5，分为64位和32位两种，适用平台囊括Windows/Linux/Unix/Mac等几乎所有操作系统。官网有Windows预编译版和源文件包提供，前者可以在Windows上直接运行，后者需要自行编译。使用o">
+<meta name="twitter:title" content="八皇后问题(递归搜索+回溯)">
+<meta name="twitter:description" content="##八皇后问题(递归搜索+溯)我们考虑使用递归搜索来解决这个问题
+对于八皇后问题，不考虑使用美剧算法，枚举的话，状态太多，可能性太多
+###搜索问题的典型算法（递归搜索）
+
+开始
+判断是否达到最简情况
+枚举可能的动作
+尝试这个动作
+递归计算（搜索）更简单的情况
+撤销这个动作（与第二步的动作是同一个动作）
+
+
+返回返回值
+
+问题描述8X8放8个皇后，互相不能吃掉对方。
+解法分析从第一行开始尝试递归的">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -58,7 +103,7 @@
   };
 </script>
 
-  <title> OOMMF简介与安装指南 | Writing And Thinking </title>
+  <title> 八皇后问题(递归搜索+回溯) | Writing And Thinking </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -183,7 +228,7 @@
           
           
             
-              OOMMF简介与安装指南
+              八皇后问题(递归搜索+回溯)
             
           
         </h1>
@@ -192,8 +237,8 @@
       <div class="post-meta">
         <span class="post-time">
           发表于
-          <time itemprop="dateCreated" datetime="2015-10-12T18:05:34+08:00" content="2015-10-12">
-            2015-10-12
+          <time itemprop="dateCreated" datetime="2015-12-10T17:35:04+08:00" content="2015-12-10">
+            2015-12-10
           </time>
         </span>
 
@@ -202,8 +247,20 @@
             &nbsp; | &nbsp; 分类于
             
               <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/Spintronics/" itemprop="url" rel="index">
-                  <span itemprop="name">Spintronics</span>
+                <a href="/categories/C/" itemprop="url" rel="index">
+                  <span itemprop="name">C++</span>
+                </a>
+              </span>
+
+              
+              
+                ， 
+              
+
+            
+              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <a href="/categories/C/Algorithms/" itemprop="url" rel="index">
+                  <span itemprop="name">Algorithms</span>
                 </a>
               </span>
 
@@ -218,8 +275,8 @@
           
             <span class="post-comments-count">
               &nbsp; | &nbsp;
-              <a href="/2015/10/12/OOMMF简介与安装指南/#comments" itemprop="discussionUrl">
-                <span class="post-comments-count ds-thread-count" data-thread-key="2015/10/12/OOMMF简介与安装指南/" itemprop="commentsCount"></span>
+              <a href="/2015/12/10/八皇后问题(递归搜索+回溯)/#comments" itemprop="discussionUrl">
+                <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/10/八皇后问题(递归搜索+回溯)/" itemprop="commentsCount"></span>
               </a>
             </span>
           
@@ -233,26 +290,23 @@
       
 
       
-        <span itemprop="articleBody"><h2 id="OOMMF介绍">OOMMF介绍</h2><p>oommf是当前使用最广泛（没有之一）的微磁模拟软件，属于开源软件，自由下载，主要由美国NIST的M.Donahue等人开发，不定期释出新版本。目前的最新版本为oommf1.2a5，分为64位和32位两种，适用平台囊括Windows/Linux/Unix/Mac等几乎所有操作系统。官网有Windows预编译版和源文件包提供，前者可以在Windows上直接运行，后者需要自行编译。使用oommf前需要先安装tcl/tk软件，如果要从oommf源文件自行编译，还需要安装合适的编译器，例如MS-VC++(免费的express版就可以)等。oommf属于面向对象软件，功能很强大，而且very flexible，就速度而言，64位版要比32位版快几倍。要学会oommf必须好好看一下安装包自带的说明书(userguide)，并且安装包里还有很多示例性的mif文件。看完说明书后，最好把mif文件逐个看一遍，这样肯定能够学会编写oommf的输入文件(即mif文件)。oommf的输入文件语言是tcl语言。</p>
-<h2 id="其他微磁学软件介绍">其他微磁学软件介绍</h2><p>　    LLG Micromagnetics Simulator是一款收费软件，由原美国亚利桑那州立大学教授M.Scheinfein开发，用户比oommf要少很多，一方面是由于其售价高达合人民币约六万，另一方面是由于其速度太慢，比oommf要慢数倍，另外，llg的功能也没有oommf强大，有些微磁学问题用llg是没办法做的。作为售价不菲的收费软件，llg有其自身的优点-提供了某些数据处理功能，这是自由软件所不具备的。对于某些微磁问题，这些数据后处理功能非常重要。llg只能在Windows平台上运行，2013年推出了64位版本。<br>　　mumax是最近两三年才推出的一款微磁软件，属于开源软件，自由下载，主要由比利时Ghent大学的A.Vansteenkiste博士开发，不定期释出新版本，目前更新很频繁。mumax是一款GPU软件，所以它的特点是速度快。经笔者验证，mumax的运算速度比oommf-64位版本还要快几倍(因此比llg要快几十甚至上百倍)。mumax专门针对nVIDIA GPU开发，可以在Linux/Windows/Mac平台上运行。官网有Windows可执行文件包和源文件包提供。mumax的输入文件为mx3格式，官网提供有示例性mx3文件和API，简单易学，大约几天就能上手。mumax的输入文件语言是比较新的go语言。<br>　　<br>　　另外，免费微磁软件还有magpar/nmag/micromagnum(GPU软件)等，收费软件还有micromagus/GPMagnet(GPU软件)。<br>　　<br>　　oommf/llg/mumax/micromagnum采用的是有限差分法(finite-difference method)，magpar和nmag采用的是有限元法(finite-element method)。</p>
-<h2 id="安装方式">安装方式</h2><h3 id="1-_Download_the_graphics_UI_package_:">1. Download the graphics UI package :</h3><p>Tcl/Tk 8.4 (NOT 8.5), from:<a href="http://www.activestate.com/activetcl/downloads" target="_blank" rel="external">http://www.activestate.com/activetcl/downloads</a>.<br>And install by clicking the exe . You may have to add the Tcl directory to your global path variable. On windows XP, this is done by right clicking</p>
-<blockquote>
-<p>My Computer -&gt; Properties -&gt; Advanced -&gt; Environment Variables</p>
-</blockquote>
-<p>and find the ”Path” variable in the list. Add a line similar to</p>
-<blockquote>
-<p>D:\Tcl\bin</p>
-</blockquote>
-<h3 id="2-_Download_the_main_code_:">2. Download the main code :</h3><p>OOMMF v 1.2a3, compiled for Windows and Tcl/Tk 8.4, from<br><a href="http://math.nist.gov/oommf/dist/oommf12a3_20021030_84.zip" target="_blank" rel="external">http://math.nist.gov/oommf/dist/oommf12a3_20021030_84.zip</a><br>Unzip, and start the command line (<code>Start -Run -”cmd”</code>). Change directory to you oommf dir, and type:<br><code>tclsh84 oommf.tcl pimake upgrade</code></p>
-<p>Now, to fix some known bugs ,go to</p>
-<p><http: math.nist.gov="" oommf="" software-patchsets="" oommf12a3="" patchinfo.html=""></http:></p>
-<p>and complete the steps described in problem 2, 8, 13, 16, 17 and 19 All these problems are solved by downloading and replacing ?les -no recompiling is required.</p>
-<p>Note:</p>
-<blockquote>
-<p>change dir: cd /d D:\Tcl\oommf</p>
-</blockquote>
-<p>参考网站：<br><a href="http://emuch.net/html/201405/7429576.html" target="_blank" rel="external">微磁模拟软件oommf/llg/mumax之比较</a><br><a href="http://researching.blog.163.com/blog/static/2023050432012216113947869/" target="_blank" rel="external">OOMMF安装指南【整理】</a></p>
-</span>
+        <span itemprop="articleBody"><p>##八皇后问题(递归搜索+溯)<br>我们考虑使用<strong>递归搜索</strong>来解决这个问题</p>
+<p>对于八皇后问题，不考虑使用美剧算法，枚举的话，状态太多，可能性太多</p>
+<p>###搜索问题的典型算法（递归搜索）</p>
+<ul>
+<li>开始</li>
+<li>判断是否达到最简情况<ul>
+<li>枚举可能的动作</li>
+<li>尝试这个动作</li>
+<li>递归计算（搜索）更简单的情况</li>
+<li>撤销这个动作（与第二步的动作是同一个动作）</li>
+</ul>
+</li>
+<li>返回返回值</li>
+</ul>
+<h3 id="问题描述">问题描述</h3><p>8X8放8个皇后，互相不能吃掉对方。</p>
+<h3 id="解法分析">解法分析</h3><p>从第一行开始尝试<br>递归的考虑一个函数f(n)<br>解决从n到7排布皇后的问题，返回可能性的数量<br>f(0) = (在0,0放皇后)F(1)+(在0,1放皇后)F(1)+…..+(在0,7放皇后)F(1)<br>f(1) = (在1,2放皇后)f(2)+…+(在1,7放皇后)f(2)<br>f(7) = (在7,7放皇后)1(f(8))</p>
+<h3 id="代码实现">代码实现</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span><br><span class="line">------------------------------</span><br><span class="line">Platform:VS2013</span><br><span class="line">Time:2015-12-10 16:09:40</span><br><span class="line">Language:C++</span><br><span class="line">Author:S.Y. Zhang</span><br><span class="line">E-mail:Sy.zhangbuaa@gmail.com</span><br><span class="line">------------------------------</span><br><span class="line">*/</span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#<span class="keyword">define</span> N <span class="number">9</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">static</span> <span class="keyword">int</span> num = <span class="number">0</span>;<span class="comment">//记录所有可能的情况数</span></span><br><span class="line"><span class="keyword">static</span> <span class="keyword">char</span> board[N + <span class="number">2</span>][N + <span class="number">2</span>];<span class="comment">//初始化10X10棋盘 包含边界</span></span><br><span class="line"><span class="comment">//定义一个结构体 来作为方向</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> _tag_pos</span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">int</span> i;</span><br><span class="line">	<span class="keyword">int</span> j;</span><br><span class="line">&#125;Pos;</span><br><span class="line"><span class="comment">//检查三个方向 左上 右上 正上</span></span><br><span class="line"><span class="keyword">static</span> Pos pos[<span class="number">3</span>] = &#123; &#123;-<span class="number">1</span>,-<span class="number">1</span>&#125;, &#123;-<span class="number">1</span>,<span class="number">1</span>&#125;, &#123;-<span class="number">1</span>,<span class="number">0</span>&#125; &#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//棋盘初始化函数 </span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="comment">//将边界初始化为‘#’,内容初始化为‘ ’</span></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N + <span class="number">2</span>;i++)&#123;</span><br><span class="line">		board[<span class="number">0</span>][i] = <span class="string">'#'</span>;</span><br><span class="line">		board[N + <span class="number">1</span>][i] = <span class="string">'#'</span>;</span><br><span class="line">		board[i][<span class="number">0</span>] = <span class="string">'#'</span>;</span><br><span class="line">		board[i][N + <span class="number">1</span>] = <span class="string">'#'</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= N; i++)&#123;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= N; j++)&#123;</span><br><span class="line">			board[j][i] = <span class="string">' '</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//棋盘打印函数 便于测试</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">display</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N + <span class="number">2</span>; i++)&#123;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; N + <span class="number">2</span>; j++)</span><br><span class="line">			<span class="built_in">cout</span> &lt;&lt; board[i][j];</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">check</span><span class="params">(<span class="keyword">int</span> i,<span class="keyword">int</span> j)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> k = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">bool</span> ret = <span class="literal">true</span>;<span class="comment">//可否放皇后的标志位</span></span><br><span class="line">	<span class="keyword">for</span> (k = <span class="number">0</span>; k &lt; <span class="number">3</span>; k++)&#123;<span class="comment">//检查三个方向</span></span><br><span class="line">		<span class="keyword">int</span> ni = i;</span><br><span class="line">		<span class="keyword">int</span> nj = j;</span><br><span class="line">		</span><br><span class="line">		<span class="comment">//在边界内进行判断</span></span><br><span class="line">		<span class="keyword">while</span> (ret &amp;&amp; (board[ni][nj] != <span class="string">'#'</span>))&#123;<span class="comment">//判断未达到边界</span></span><br><span class="line">			ni += pos[k].i;</span><br><span class="line">			nj += pos[k].j;</span><br><span class="line"></span><br><span class="line">			ret = ret &amp;&amp; (board[ni][nj] != <span class="string">'*'</span>);<span class="comment">//判断可否放皇后</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//ret = true 该位置没有放皇后，可以放皇后</span></span><br><span class="line">	<span class="comment">//ret = false  该位置放有皇后，不可放皇后</span></span><br><span class="line">	<span class="keyword">return</span> ret;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//算法核心，放置皇后函数</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">find</span><span class="params">(<span class="keyword">int</span> i)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> j = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">if</span> (i &gt; N)&#123;</span><br><span class="line">		num ++;</span><br><span class="line">		display;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">1</span>; j &lt;= N; j++)&#123;</span><br><span class="line">			<span class="keyword">if</span> (check(i, j))&#123;</span><br><span class="line">				board[i][j] = <span class="string">'*'</span>;</span><br><span class="line">				find(i + <span class="number">1</span>);</span><br><span class="line">				board[i][j] = <span class="string">' '</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	init();</span><br><span class="line">	</span><br><span class="line">	find(<span class="number">1</span>);</span><br><span class="line">	display();</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; num &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">while</span> (<span class="number">1</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></span>
       
     </div>
 
@@ -260,9 +314,15 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Spintronics/" rel="tag">#Spintronics</a>
+            <a href="/tags/Algorithms/" rel="tag">#Algorithms</a>
           
-            <a href="/tags/Tools/" rel="tag">#Tools</a>
+            <a href="/tags/C/" rel="tag">#C++</a>
+          
+            <a href="/tags/八皇后/" rel="tag">#八皇后</a>
+          
+            <a href="/tags/回溯/" rel="tag">#回溯</a>
+          
+            <a href="/tags/递归/" rel="tag">#递归</a>
           
         </div>
       
@@ -271,13 +331,11 @@
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/10/14/Tcl语言教程/" rel="prev">Tcl语言教程</a>
-            
           </div>
 
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/10/12/珍惜在一起的每一天/" rel="next">珍惜在一起的每一天</a>
+              <a href="/2015/12/09/未能加载项目。缺少根元素。Microsoft.Cpp.Win32.user.props/" rel="next">未能加载项目。缺少根元素。Microsoft.Cpp.Win32.user.props</a>
             
           </div>
         </div>
@@ -325,8 +383,8 @@
         
           <div class="comments" id="comments">
             
-              <div class="ds-thread" data-thread-key="2015/10/12/OOMMF简介与安装指南/"
-                   data-title="OOMMF简介与安装指南" data-url="http://syzhang.me/2015/10/12/OOMMF简介与安装指南/">
+              <div class="ds-thread" data-thread-key="2015/12/10/八皇后问题(递归搜索+回溯)/"
+                   data-title="八皇后问题(递归搜索+回溯)" data-url="http://syzhang.me/2015/12/10/八皇后问题(递归搜索+回溯)/">
               </div>
             
           </div>
@@ -450,7 +508,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#OOMMF介绍"><span class="nav-number">1.</span> <span class="nav-text">OOMMF介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他微磁学软件介绍"><span class="nav-number">2.</span> <span class="nav-text">其他微磁学软件介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装方式"><span class="nav-number">3.</span> <span class="nav-text">安装方式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-_Download_the_graphics_UI_package_:"><span class="nav-number">3.1.</span> <span class="nav-text">1. Download the graphics UI package :</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-_Download_the_main_code_:"><span class="nav-number">3.2.</span> <span class="nav-text">2. Download the main code :</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#问题描述"><span class="nav-number">1.</span> <span class="nav-text">问题描述</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解法分析"><span class="nav-number">2.</span> <span class="nav-text">解法分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#代码实现"><span class="nav-number">3.</span> <span class="nav-text">代码实现</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
