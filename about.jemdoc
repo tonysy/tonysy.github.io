@@ -1,6 +1,20 @@
 # jemdoc: menu{MENU}{about.html}
 = About Me
 
-- I joined the [http://www.tusimple.com/ TuSimple,Inc] as an algorithm engineer(intern) in 2017.
-- I am an undergraduate student in School of Electronic and Information Engineering, Beihang University.
-- I will join [http://sist.shanghaitech.edu.cn School of Information Science and Techology] at ShanghaiTech as a graduate student in 2017
+~~~
+{}{img_left}{tusimple.png}{alt text}{60px}{60px}{}
+
+- I joined the [http://www.tusimple.com/ TuSimple,Inc] \n as an algorithm engineer(intern) in 2017.
+
+~~~
+
+~~~
+{}{img_left}{buaalogo.png}{alt text}{60px}{60px}{}
+- I am an undergraduate student in \n [http://www.ee.buaa.edu.cn School of Electronic and Information Engineering], \n Beihang University(2013-2017).
+~~~
+
+~~~
+{}{img_left}{shulogo.png}{alt text}{60px}{60px}{}
+
+- I will join [http://sist.shanghaitech.edu.cn School of Information Science and Techology] \n at ShanghaiTech as a graduate student in 2017
+~~~
