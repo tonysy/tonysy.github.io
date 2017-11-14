@@ -2,14 +2,12 @@
 = Songyang Zhang
 
 ~~~
-{}{img_left}{myphoto.png}{alt text}{100px}{144px}{myphoto.png}
+{}{img_left}{mynewphoto.jpg}{alt text}{100px}{178px}
 
 
-{{<a target="_blank" href="http://www.tusimple.com/"><img src="tusimple.png" height="40" width="40" style = "float:right "alt="NZ" /></a>}} 
-Algorithm Engineer(Intern) \n
-[http://www.tusimple.com/ TuSimple,Inc] \n
-\n
-
+Master of Computer Science \n
+School of Information Science and Technology\n
+[http://www.shanghaitech.edu.cn/ ShanghaiTech University] \n
 
 Undergraduate \n
 School of Electronic and Information Engineering\n
@@ -20,9 +18,8 @@ School of Electronic and Information Engineering\n
 
 == Address
 
-World Trade Business Building 6 Floor, \n
-Guanghua Street No.9 Chaoyang District Beijing, \n
-P.R.China 100020. Beijing (China HQ) \n
+393 Middle Huaxia Road, Pudong, Shanghai, \n
+P.R.China 201210. \n
 
 
 == Contact
@@ -34,4 +31,4 @@ Email2: syzhang at buaa dot edu dot cn
 
 - Computer Vision and Deep Learning \n
 - Object Detection and Video Segmentation \n
-- Reinforcement Learning and Mutltitask
+- Meta-Learning and Reinforcement Learning 
