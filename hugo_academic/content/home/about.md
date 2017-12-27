@@ -30,7 +30,7 @@ weight = 5
 
 # Biography
 
-I am currently a postgraduate student of computer science at ShangtaiTech VENUS Group. His research interests include video segmentation, one/few-shot learning and reinforcement learning. 
+I am currently a postgraduate student of computer science at ShangtaiTech [VENUS](http://sist.shanghaitech.edu.cn/faculty/hexm/) Group. His research interests include video segmentation, one/few-shot learning and reinforcement learning. 
 
 My surpervisor is Prof. [Xuming He](https://xmhe.bitbucket.io/) at ShanghaiTech. I got my BS degree from Beihang University, 2017 under the supervision of Prof. [Mai Xu](http://shi.buaa.edu.cn/MaiXu/zh_CN/index.htm). My CV can be found [here](https://www.syzhang.me/cv_syzhang.pdf).
 
