@@ -32,6 +32,28 @@
     </item>
     
     <item>
+      <title>Paper Reading:Multi-shot Pedestrian Re-identification via Sequential Decision Making</title>
+      <link>/post/multishotreid/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/post/multishotreid/</guid>
+      <description>&lt;p&gt;Re-identification via Sequential Decision Makings used to give the talk in reading group.&lt;/p&gt;
+
+&lt;!-- &lt;object data=&#34;https://syzhang.me/underblackbox.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;700px&#34;&gt;
+    &lt;embed src=&#34;https://syzhang.me/underblackbox.pdf&#34;&gt;
+        This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&#34;https://syzhang.me/underblackbox.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
+    &lt;/embed&gt;
+&lt;/object&gt; --&gt;
+
+&lt;!-- &lt;embed src=&#34;https://syzhang.me/underblackbox.pdf&#34; width=&#34;500&#34; height=&#34;375&#34; type=&#39;application/pdf&#39;&gt; --&gt;
+
+&lt;!-- &lt;iframe src=&#34;https://drive.google.com/file/d/1xyLg2Zwv5ON48nC6K4oNrgr1VbI67-p-/view?usp=sharing&#34; style=&#34;width:718px; height:700px;&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt; --&gt;
+
+&lt;iframe src=&#34;https://drive.google.com/file/d/1eycLvFnv61oTjkrLR-QuazsDv_geLDHS/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Deep Feature Flow(Cityscapes)</title>
       <link>/project/dffseg/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
