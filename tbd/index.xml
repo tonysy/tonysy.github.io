@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Songyang Zhang</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tbd/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/tbd/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
@@ -25,10 +27,8 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/tbd/teaching/</guid>
-      <description>&lt;p&gt;This is an example of using the &lt;em&gt;custom&lt;/em&gt; widget to create your own homepage section.&lt;/p&gt;
-
-&lt;p&gt;To remove this section, either delete &lt;code&gt;content/home/teaching.md&lt;/code&gt; or edit the frontmatter of the file to deactivate the widget by setting &lt;code&gt;active = false&lt;/code&gt;.&lt;/p&gt;
-</description>
+      <description>This is an example of using the custom widget to create your own homepage section.
+To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
     </item>
     
   </channel>

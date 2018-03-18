@@ -8,7 +8,18 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Songyang Zhang</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Few-shot Learning with Spatial-Task Attention Network</title>
+      <link>/publication/fewshot_eccv2018/</link>
+      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/fewshot_eccv2018/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
     
     <item>
       <title>Generalization Tower Network: A Novel Deep Neural Network Architecture for Multi-Task Learning</title>
@@ -16,8 +27,7 @@
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/gtn/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
@@ -26,8 +36,7 @@
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/salientface/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
   </channel>
