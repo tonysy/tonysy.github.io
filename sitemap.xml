@@ -23,6 +23,15 @@
     
     <url>
     
+      <loc>/post/surveysegmentation/</loc>
+      <lastmod>2018-05-10T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/fewshot_eccv2018/</loc>
       <lastmod>2018-03-18T00:00:00+00:00</lastmod>
     </url>
@@ -152,7 +161,7 @@
     <url>
     
       <loc>/tags/deep-learning/</loc>
-      <lastmod>2018-01-04T00:00:00+08:00</lastmod>
+      <lastmod>2018-05-10T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -202,7 +211,7 @@
     <url>
     
       <loc>/tags/segmentation/</loc>
-      <lastmod>2017-12-26T00:00:00+00:00</lastmod>
+      <lastmod>2018-05-10T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
