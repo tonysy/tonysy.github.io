@@ -1,6 +1,6 @@
 +++
-title = "Few-shot Learning with Spatial-Task Attention Network"
-date = "2018-03-18"
+title = "A Dual Attention Network with Semantic Embedding for Few-shot Learning"
+date = "2018-11-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Shipeng Yan*", "**Songyang Zhang***", "Xuming He"]
@@ -17,8 +17,8 @@ authors = ["Shipeng Yan*", "**Songyang Zhang***", "Xuming He"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *European Conference on Computer Vision(ECCV)*, IEEE."
-publication_short = "(* denotes for equal contribution)Submit to *ECCV*"
+publication = "In * AAAI Conference on Artificial Intelligence*, AAAI"
+publication_short = "(* denotes for equal contribution) In *AAAI*"
 
 # Abstract and optional shortened version.
 abstract = "TBD"

@@ -32,6 +32,38 @@
     </item>
     
     <item>
+      <title>A Dual Attention Network with Semantic Embedding for Few-shot Learning</title>
+      <link>/publication/fewshot_eccv2018/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/fewshot_eccv2018/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Survey On DNN based Semantic Segmentation</title>
+      <link>/post/segmentationsurvey/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/post/segmentationsurvey/</guid>
+      <description>&lt;p&gt;A Survey on DNN based image semantic segmentation&lt;/p&gt;
+
+&lt;!-- &lt;object data=&#34;https://syzhang.me/underblackbox.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;700px&#34;&gt;
+    &lt;embed src=&#34;https://syzhang.me/underblackbox.pdf&#34;&gt;
+        This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&#34;https://syzhang.me/underblackbox.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
+    &lt;/embed&gt;
+&lt;/object&gt; --&gt;
+
+&lt;!-- &lt;embed src=&#34;https://syzhang.me/underblackbox.pdf&#34; width=&#34;500&#34; height=&#34;375&#34; type=&#39;application/pdf&#39;&gt; --&gt;
+
+&lt;!-- &lt;iframe src=&#34;https://drive.google.com/file/d/1xyLg2Zwv5ON48nC6K4oNrgr1VbI67-p-/view?usp=sharing&#34; style=&#34;width:718px; height:700px;&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt; --&gt;
+
+&lt;iframe src=&#34;https://drive.google.com/file/d/1eycLvFnv61oTjkrLR-QuazsDv_geLDHS/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Survey On DNN based Semantic Segmentation</title>
       <link>/post/surveysegmentation/</link>
       <pubDate>Thu, 10 May 2018 00:00:00 +0800</pubDate>
@@ -52,16 +84,6 @@
 &lt;!-- &lt;iframe src=&#34;https://drive.google.com/file/d/1eycLvFnv61oTjkrLR-QuazsDv_geLDHS/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt; --&gt;
 
 &lt;iframe src=&#34;https://drive.google.com/file/d/1SsuSssna3IgjC5bu25km8evvY0ktZOZe/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Few-shot Learning with Spatial-Task Attention Network</title>
-      <link>/publication/fewshot_eccv2018/</link>
-      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/fewshot_eccv2018/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
