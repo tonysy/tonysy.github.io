@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Segmentation on S.Y. Zhang</title>
+    <link>/tags/segmentation/</link>
+    <description>Recent content in Segmentation on S.Y. Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Songyang Zhang</copyright>
+    <lastBuildDate>Sun, 20 May 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/segmentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Survey On DNN based Semantic Segmentation</title>
+      <link>/post/segmentationsurvey/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/post/segmentationsurvey/</guid>
+      <description>A Survey on DNN based image semantic segmentation
+This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+  -- --  --  </description>
+    </item>
+    
+    <item>
+      <title>A Survey On DNN based Semantic Segmentation</title>
+      <link>/post/surveysegmentation/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/post/surveysegmentation/</guid>
+      <description>A Survey on DNN based image semantic segmentation
+This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+  -- --  --  --  </description>
+    </item>
+    
+    <item>
+      <title>Deep Feature Flow(Cityscapes)</title>
+      <link>/project/dffseg/</link>
+      <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/dffseg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
