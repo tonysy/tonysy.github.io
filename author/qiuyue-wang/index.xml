@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qiuyue Wang | Songyang Zhang</title>
+    <link>http://syzhang.me/author/qiuyue-wang/</link>
+      <atom:link href="http://syzhang.me/author/qiuyue-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qiuyue Wang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Songyang Zhang@2020</copyright><lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://syzhang.me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Qiuyue Wang</title>
+      <link>http://syzhang.me/author/qiuyue-wang/</link>
+    </image>
+    
+    <item>
+      <title>Dynamic Context Correspondence Network for Semantic Alignment</title>
+      <link>http://syzhang.me/publication/year2019/conf_iccv2019_dccnet/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://syzhang.me/publication/year2019/conf_iccv2019_dccnet/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://openaccess.thecvf.com/content_ICCV_2019/supplemental/Huang_Dynamic_Context_Correspondence_ICCV_2019_supplemental.pdf). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
