@@ -3,8 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://syzhang.me/publication-type/1/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://syzhang.me/authors/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/tag/few-shot-segmentation/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/tag/graph-neural-network/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/publication/year2020/conf_eccv2020_ppnet/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/publication_types/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/publication/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/author/songyang-zhang/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/tags/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/author/xiangyi-zhang/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/author/xuming-he/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://syzhang.me/author/yongfei-liu/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,32 +78,7 @@
   </url>
   
   <url>
-    <loc>http://syzhang.me/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://syzhang.me/author/songyang-zhang/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://syzhang.me/publication-type/1/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://syzhang.me/publication/year2019/conf_iccv2019_dccnet/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://syzhang.me/publication_types/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://syzhang.me/publication/</loc>
     <lastmod>2019-07-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,17 +108,7 @@
   </url>
   
   <url>
-    <loc>http://syzhang.me/tags/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://syzhang.me/tag/attention/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://syzhang.me/tag/graph-neural-network/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,23 +123,18 @@
   </url>
   
   <url>
-    <loc>http://syzhang.me/author/xuming-he/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://syzhang.me/publication/year2019/conf_aaai2019_dualattention/</loc>
-    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://syzhang.me/tag/few-shot-learning/</loc>
-    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://syzhang.me/tag/meta-learning/</loc>
-    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
