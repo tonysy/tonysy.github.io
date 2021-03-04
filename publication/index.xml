@@ -5,12 +5,38 @@
     <link>http://syzhang.me/publication/</link>
       <atom:link href="http://syzhang.me/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Songyang Zhang@2020</copyright><lastBuildDate>Fri, 24 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Songyang Zhang@2020</copyright><lastBuildDate>Mon, 01 Mar 2021 00:10:00 +0000</lastBuildDate>
     <image>
       <url>http://syzhang.me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>http://syzhang.me/publication/</link>
     </image>
+    
+    <item>
+      <title>Bipartite Graph Network with Adaptive Message Passing for Unbiased Scene Graph Generation</title>
+      <link>http://syzhang.me/publication/year2021/conf_cvpr2021_bgnn/</link>
+      <pubDate>Mon, 01 Mar 2021 00:10:00 +0000</pubDate>
+      <guid>http://syzhang.me/publication/year2021/conf_cvpr2021_bgnn/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Distribution Alignment: A Unified Framework for Long-tail Visual Recognition</title>
+      <link>http://syzhang.me/publication/year2021/conf_cvpr2021_disalign/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://syzhang.me/publication/year2021/conf_cvpr2021_disalign/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Transformer with Bidirectional Decoder for Speech Recognition</title>
