@@ -1,25 +1,31 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <b>Postdoctoral Fellow</b> at <a href='https://www.shlab.org.cn/'>Shanghai AI Laboratory</a>, Shanghai, China.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: zhangsongyang.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: 
+    <p></p>
+
+    <p></p>    
+
+    <p></p>
+  # <p>123 your address street</p>
+  # <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+He has joined [OpenMMLab](https://www.openmmlab.com/), [Shanghai AI Laboratory](https://www.shlab.org.cn/), supervised by [Prof. Dahua Lin](http://dahua.site/) and [Dr. Kai Chen](https://chenkai.site/). He leads a team working on foundation model, includes the research and open-source platform. His team develops and maintains the OpenMMLab projects [**MMClassification**](https://github.com/open-mmlab/mmclassification) and [**MMSelfSup**](https://github.com/open-mmlab/MMSelfSup).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+He obtained his Ph.D. in Computer Science at the University of Chinese Academy of Science, in the joint program at [PLUS Lab](http://plus.sist.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/), supervised [Prof. Xuming He](https://xmhe.bitbucket.io/) in 2022. He got his B.Sc. degree in 2017, and worked at [MC^2 Lab](http://buaamc2.net/index.html), [Beihang University](https://www.buaa.edu.cn/), under the supervision of [Prof. Mai Xu](https://shi.buaa.edu.cn/MaiXu/zh_CN/index.htm). He also worked as the research intern in TuSimple, Tencent Youtu Lab, and Megvii Research.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Open positions at OpenMMLab include **full-time researchers/engineers and interns**, feel free to contact him through the email.
+<!-- If you are interested in joining OpenMMLab, please feel free to contact him through the email. -->
+Research directions include: **model architecture design, self/semi/weak-supervised learning, vision-language pre-training, 2d/3d detection, segmentation**, etc.
