@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Postdoctoral Fellow</b> at <a href='https://www.shlab.org.cn/'>Shanghai AI Laboratory</a>, Shanghai, China.
+subtitle: <b>Young Researcher</b> at <a href='https://www.shlab.org.cn/'>Shanghai AI Laboratory</a>, Shanghai, China.
 
 profile:
   align: right
@@ -22,10 +22,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Researcher of [OpenMMLab](https://www.openmmlab.com/), [Shanghai AI Laboratory](https://www.shlab.org.cn/), supervised by [Prof. Dahua Lin](http://dahua.site/), collaborate with [Dr. Kai Chen](https://chenkai.site/). I lead a team working on **multi-modality model** and **large language model**, includes the research and open-source platform. My team develops and maintains the evaluation platform for foundation model, [**OpenCompass**](https://opencompass.org.cn/), and  OpenMMLab projects [**MMPreTrain**](https://github.com/open-mmlab/mmpretrain).
+I am a Researcher of [OpenMMLab](https://www.openmmlab.com/), [Shanghai AI Laboratory](https://www.shlab.org.cn/), supervised by [Prof. Dahua Lin](http://dahua.site/), collaborate with [Dr. Kai Chen](https://chenkai.site/). I lead a team working on **multi-modality model** and **large language model**, includes the research and open-source platform. My team develops and maintains the  [**OpenCompass**](https://opencompass.org.cn/), an evaluation platform for foundation model, and OpenMMLab projects [**MMPreTrain**](https://github.com/open-mmlab/mmpretrain).
 
 <div align="center">
-  <a href="https://github.com/InternLM/opencompass">
+  <a href="https://github.com/open-compass/opencompass">
   <img src="https://raw.githubusercontent.com/InternLM/opencompass/main/docs/en/_static/image/logo.svg"  alt="OpenCompass" width="300px"/>
   </a>
    <a href="https://github.com/open-mmlab/mmpretrain">
@@ -34,7 +34,7 @@ I am a Researcher of [OpenMMLab](https://www.openmmlab.com/), [Shanghai AI Labor
 </div>
 
 
-I obtained Ph.D. in Computer Science at the University of Chinese Academy of Science(UCAS), in the joint program at [PLUS Lab](http://plus.sist.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/), supervised by [Prof. Xuming He](https://xmhe.bitbucket.io/) in 2022. I got my B.Sc. degree in 2017 from [Beihang University](https://www.buaa.edu.cn/), under the supervision of [Prof. Mai Xu](https://shi.buaa.edu.cn/MaiXu/zh_CN/index.htm). I also worked as the research intern in TuSimple, Tencent Youtu Lab, and Megvii Research.
+I obtained Ph.D. in Computer Science at the University of Chinese Academy of Science(UCAS), in the joint program at [PLUS Lab](http://plus.sist.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/) in 2022. I got my B.Sc. degree in 2017 from [Beihang University](https://www.buaa.edu.cn/).
 
 Open positions include **full-time researchers/engineers and interns**, feel free to contact me through the email.
 <!-- If you are interested in joining OpenMMLab, please feel free to contact him through the email. -->
