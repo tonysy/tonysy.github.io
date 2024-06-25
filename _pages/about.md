@@ -6,7 +6,7 @@ subtitle: <b>Young Researcher</b> at <a href='https://www.shlab.org.cn/'>Shangha
 
 profile:
   align: right
-  image: zhangsongyang_1.jpeg
+  image: zhangsongyang_2024.jpg
   image_circular: false # crops the image to make it circular
   address: 
     <p></p>
