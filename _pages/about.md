@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Young Researcher</b> at <a href='https://www.shlab.org.cn/'>Shanghai AI Laboratory</a>, Shanghai, China.
+subtitle: <b>Young Scientist</b> at <a href='https://www.shlab.org.cn/'>Shanghai AI Laboratory</a>, Shanghai, China.
 
 profile:
   align: right
@@ -22,7 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Researcher of [OpenMMLab](https://www.openmmlab.com/), [Shanghai AI Laboratory](https://www.shlab.org.cn/), supervised by [Prof. Dahua Lin](http://dahua.site/), collaborate with [Dr. Kai Chen](https://chenkai.site/). I lead a team working on **multi-modality model** and **large language model**, includes the research and open-source platform. My team develops and maintains the  [**OpenCompass**](https://opencompass.org.cn/), an evaluation platform for foundation model, and OpenMMLab projects [**MMPreTrain**](https://github.com/open-mmlab/mmpretrain).
+I am a Young Scientist of [OpenMMLab](https://www.openmmlab.com/), [Shanghai AI Laboratory](https://www.shlab.org.cn/), collaborate with [Dr. Kai Chen](https://chenkai.site/). Previously, I was postdoctoral researcher, supervised by [Prof. Dahua Lin](http://dahua.me/). Currently, I lead a team working on **multi-modality model** and **large language model**, includes the research and open-source platform. My team develops and maintains the  [**OpenCompass**](https://opencompass.org.cn/), an evaluation platform for foundation model, and OpenMMLab projects [**MMPreTrain**](https://github.com/open-mmlab/mmpretrain).
 
 <div align="center">
   <a href="https://github.com/open-compass/opencompass">
