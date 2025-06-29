@@ -22,7 +22,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Young Scientist of [Shanghai AI Laboratory](https://www.shlab.org.cn/), collaborate with [Dr. Kai Chen](https://chenkai.site/). Previously, I was a postdoctoral researcher, supervised by [Prof. Dahua Lin](http://dahua.me/). Currently, I lead a team working on **multi-modality model** and **large language model**, includes the research and open-source platform. My team develops and maintains the  [**OpenCompass**](https://opencompass.org.cn/), an evaluation platform for foundation model, and OpenMMLab projects [**MMPreTrain**](https://github.com/open-mmlab/mmpretrain).
+I am a Young Scientist of [Shanghai AI Laboratory](https://www.shlab.org.cn/), collaborate with [Dr. Kai Chen](https://chenkai.site/). Previously, I was a postdoctoral researcher, supervised by [Prof. Dahua Lin](http://dahua.me/). Currently, I lead a team working on foundation model, includes the research and open-source platform. My team intiates the  [**OpenCompass**](https://opencompass.org.cn/) project, an evaluation platform for foundation model. 
+We also developed OpenMMLab projects [**MMPreTrain**](https://github.com/open-mmlab/mmpretrain).
 
 <div align="center">
   <a href="https://github.com/open-compass/opencompass">
@@ -38,4 +39,4 @@ I obtained Ph.D. in Computer Science at the University of Chinese Academy of Sci
 
 Open positions include **full-time researchers/engineers and interns**, feel free to contact me through the email.
 <!-- If you are interested in joining OpenMMLab, please feel free to contact him through the email. -->
-Research directions include: **evaluation and application of large language model(tool use, reasoning, safety, robustness etc), multi-modality learning( vision/audio/-language learning)**, etc.
+Research directions include: **evaluation, alignment of large language model(agent, reasoning, interpretability, etc), multi-modality learning( vision/audio/-language learning)**, etc.
