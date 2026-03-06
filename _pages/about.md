@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Researcher</b> at Hunyuan, focusing on VLM post-training.
+subtitle: <b>Researcher</b> at Hunyuan, Tencent, focusing on VLM post-training.
 
 profile:
   align: right
@@ -22,7 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am now with Hunyuan, focusing on post-training for vision-language models (VLMs), including data, reinforcement learning, and evaluation. Previously, I was a Young Scientist at [Shanghai AI Laboratory](https://www.shlab.org.cn/), where I collaborated with [Dr. Kai Chen](https://chenkai.site/), and before that, a postdoctoral researcher supervised by [Prof. Dahua Lin](http://dahua.me/). I also led work on foundation model research and open-source platforms, and initiated the [**OpenCompass**](https://opencompass.org.cn/) project for foundation model evaluation and analysis.
+I am now with Hunyuan, Tencent, focusing on post-training for vision-language models (VLMs), including data, reinforcement learning, and evaluation. Previously, I was a Young Scientist at [Shanghai AI Laboratory](https://www.shlab.org.cn/), where I collaborated with [Dr. Kai Chen](https://chenkai.site/), and before that, a postdoctoral researcher supervised by [Prof. Dahua Lin](http://dahua.me/). I also led work on foundation model research and open-source platforms, and initiated the [**OpenCompass**](https://opencompass.org.cn/) project for foundation model evaluation and analysis.
 
 My team also contributes to the [**InternLM**](https://github.com/InternLM) and [**InternVL**](https://arxiv.org/abs/2508.18265), working on the research and open-source of large language model/vision-language model. We also developed OpenMMLab projects [**MMPreTrain**](https://github.com/open-mmlab/mmpretrain).
 
